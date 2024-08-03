@@ -1,0 +1,18 @@
+h1{
+    background-color: aqua;
+}
+#heading1{
+    background-color: yellow;
+}
+.heading1{
+    background-color: pink;
+}
+h2{
+    background-color: sienna ;
+}
+*{
+    background-color: brown;
+}
+body{
+    background-color: blueviolet;
+}

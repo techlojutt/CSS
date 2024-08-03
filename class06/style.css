@@ -1,0 +1,47 @@
+/*div{
+    background-color: aqua;
+    /*padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    padding-left: 70px;
+    padding-right: 50px;
+    padding: 50px 10px 40px 70px ;
+
+    border-width: 10px;
+    border-style: dotted;
+    border-color: brown;
+    border: 5px solid red; 
+    margin-top: 5px;
+    margin-bottom: 50px;
+    margin-right:10px ;
+    margin-left: 30px;
+}
+body{
+    background-color: antiquewhite;
+    margin: 20px;
+}*/
+#container{
+    margin: 0px;
+    background-color: aqua;
+}
+body{
+    margin: 0px;
+}
+#abc{
+    background-color: blue;
+    border:5px dotted blueviolet;
+    margin: 0px;
+   
+}
+p{
+    background-color: yellow;
+    margin: 10px;
+    border: 10px dotted black;
+    padding: 20px;
+}
+div{
+    /* background-color: red; */
+    margin-top: 100px;
+    /* border:10px dotted aqua; */
+    
+}

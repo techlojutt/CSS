@@ -1,0 +1,44 @@
+@import url('./abc.css');
+
+@font-face {
+    font-family:'custom' ;
+    src: url(./fonts/Oswald/Oswald-VariableFont_wght.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Jacquard+24&family=Lobster&family=Oswald:wght@200..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.heading1{
+    color: brown;
+    font-family: 'custom';
+}
+
+
+.pera{
+    color: red;
+    font-family: "Lobster", sans-serif;
+}
+
+.pera1{
+    font-family: "Dancing Script", cursive;
+} 
+ 
+body{
+    background-color: wheat;
+}
+.heading2{
+    font-family:"Roboto", sans-serif ; 
+}
+.heading3{
+    font-family: "Bebas Neue", sans-serif;  
+}
+.pera2{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px ;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: justify;
+    background-color: aqua;
+}

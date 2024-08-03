@@ -1,0 +1,35 @@
+/*h1{
+    background-color: red;
+}*/
+p{
+    background-color: aqua;
+}
+#box1{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+  /*  position: static;  by default html provided position */
+    position:sticky; /*work like relative and scrollable*/
+   /*position: absolute;
+    top:50px ;
+    z-index: 124;*/
+  /*bottom:200px;
+    right:200px;
+    left:200px ;
+    top: 200px;*/
+}
+#box2{
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+  /*position: absolute;
+    z-index: 1256;
+    top:120px;
+    left: 350px;*/
+    /*position: relative;
+    left: 50px;
+     top: 50px;
+    bottom: 50px;
+    right: 50px;*/
+}

@@ -1,0 +1,19 @@
+/*.heading{
+    background-color: rgb(50, 45, 45);
+    background-color: rgb(10, 123, 23);
+    background-color: #ff24aa;
+    color: #0e88db;
+    background-color: rgba(0,0,0,0.2);
+    background-color: hsl(4,10%,80%);
+    background-color: hsla(hue, saturation, lightness, alpha)
+}*/
+.heading1{
+    background-color: #ffdf44;
+}
+
+/*0,1,2,3,4,5,6,7,8,9,10,11,12
+0,1,2,3,,4,5,6,7,8,9,A,B,C,D,E,F*/
+
+#heading{
+    font-family: 'Elephant' ;
+}
