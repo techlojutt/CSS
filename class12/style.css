@@ -1,0 +1,63 @@
+/* p{
+   background-color : aqua ;
+} */
+.header{
+
+}
+*{
+
+}
+/* desendent selector is a type of selector  which  can select tag in the desending order where we can apply css , it can apply css on all the desendent same tags rather its grand child or child    */
+div b {
+    background-color: black ;
+}
+/* it targets direct child of an element  */
+/* div > p  {
+    background-color: aqua ; 
+} */
+/* adjacent + sibling selector apply only one  tag which will come later */
+p + div {
+    background-color: blue;
+}
+
+/* subsequenet sibling selector ~ apply on all the tag which will come after that tag  */
+
+p + h1 {
+    background-color: bisque;
+}
+img[alt="officePicture"]{
+    width: 23px;
+}
+.header[id]{
+  height: 50px;
+}
+input:focus {
+    background-color: brown;
+}
+a:active{
+   color: red;
+}
+a:hover{
+    background-color: yellow;
+}
+.header:hover {
+    background-color: darkblue;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+p::first-letter{
+    font-size: 50px;
+}
+button::after{
+    content:'-' ;
+}
+div:not(.header){
+    background-color: aqua;
+}
+div:nth-child(2){
+    background-color: red;
+}
+div:has(.btn){
+     background-color: yellow;
+}
