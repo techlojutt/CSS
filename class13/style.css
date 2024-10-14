@@ -1,0 +1,28 @@
+.rotates{
+    background-color: aqua;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    font-size: 30px;
+    /* transition: background-color 0.5s linear; */
+    transition: width 0.5s linear;
+    
+}
+.rotates:hover{
+    /* background-color: red; */
+    width: 500px;
+    /* transform: rotate(30deg); */
+    /* transform: scale(1.4); */
+    /* transform: skewX(45deg); */
+    /* transform: translate(10px, 10px); */
+    /* transform: translateX(10px); */
+    /* transform: translateY(10px); */
+    /* transform: perspective(1000px); */
+    /* transform: rotateX(30deg); */
+    /* transform: rotateY(30deg); */
+    /* transform: rotateZ(30deg); */
+    /* transform: rotate3d(1, 0, 0, 30deg); */
+    /* transform: translate3d(10px, 10px, 0); */
+    /* transform: scale3d(2, 2, 1); */
+    /* transform: skewX(45deg) skewY(30deg); */
+}
